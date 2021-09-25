@@ -9,8 +9,14 @@ When [events](https://docs.sleep.urbandroid.org/services/automation.html#events)
 |Alarm Dismisses|Tweets out you are awake, changes profile description, kills VLC, and sends out link to tweet in Discord channel|
 |Time To Bed|Tweets out you should sleep, changes profile description, and sends out link to tweet in Discord channel|
 |Future?|If you want to see something added, start a pull request.|
-## Dependencies 
-Python 3.9, Tweepy, PyCord, Flask, VLC
+## Dependencies - also in requirements.txt
+```
+tweepy==3.10.0
+Flask==1.1.4
+requests==2.26.0
+discord==1.7.3
+Python==3.9
+```
 ## Operating Systems
 Currently only on Windows, however I am working on getting it on Ubuntu/Other Linux Distros.
 ## Example
