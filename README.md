@@ -14,7 +14,7 @@ When [events](https://docs.sleep.urbandroid.org/services/automation.html#events)
 tweepy==3.10.0
 Flask==1.1.4
 requests==2.26.0
-discord==1.7.3
+PyCord==1.7.3
 Python==3.9
 ```
 ## Operating Systems
