@@ -11,7 +11,7 @@ When [events](https://docs.sleep.urbandroid.org/services/automation.html#events)
 |Future?|If you want to see something added, start a pull request.|
 ## Dependencies - also in requirements.txt
 ```
-tweepy==3.10.0
+tweepy==4.0.0
 Flask==1.1.4
 requests==2.26.0
 PyCord==1.7.3
