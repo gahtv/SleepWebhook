@@ -4,7 +4,6 @@ import tweepy
 import random
 import json
 from flask import Flask, request
-import requests
 from discord import Webhook, RequestsWebhookAdapter  # using pycord instead of discord.py
 # json dumb stuff
 oauth = json.load(open("twitter.json"))
@@ -22,7 +21,7 @@ choices = [1, 2, 3]  # just to make sure tweets are different
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
-username = (api.me()).name
+username = api.verify_credentials().screen_name
 app = Flask(__name__)  # ooh server
 alarm = "d:\\path\\to\\file"  # cool alarm
 
