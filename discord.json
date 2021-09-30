@@ -1,4 +1,5 @@
 {
   "url": "Discord Webhook Url",
-  "ping": "<@437993971130826763>"
+  "ping": "<@437993971130826763>",
+  "bot_token": "Insert Discord Bot Token"
 }
